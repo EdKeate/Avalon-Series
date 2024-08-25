@@ -1,31 +1,35 @@
-# Avalon Series
-
-<p align="Left">
-  <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" width="300" />
+<p align="Center">
+  <img src="./resources/Logo/Avalon2.png" alt="Avalon Logo" />
 </p>
+
+---
 
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
 The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
-> Distributed under the [Apache 2.0 License](#License). Read LICENSE.md
-## Lineup:
+> Distributed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Read [LICENSE.md](LICENSE.md)
+
+---
+
 - [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System
 - [Pathfinder:](pathfinder) Capable 138.8V 500Wh+ Pocket Rocket **(ETA Q4 2024)**
 - [Questor:](questor) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA Q1 2025)**
 
 >See also: [InfoBar](infobar), E-ink external display for the Avalon Series
 
+---
+
 # Odyssey
 
-<p align="Left">
-  <img src="./resources/Logo/Odyssey.png" alt="Odyssey Logo" width="300" />
+<p align="Center">
+  <img src="./resources/Logo/Odyssey2.png" alt="Odyssey Logo" />
 </p>
 
 > The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
 The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
 
-> Please read [Odyssey Board Disclaimer](#Odyssey-Board-Disclaimer)
+> Please read [Odyssey Board Disclaimer](#odyssey-board-disclaimer)
 
 ### Features
 - Voltage(V): 134.4V to 100.8V
@@ -36,17 +40,13 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 - [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
 - [ESPHome](https://esphome.io/) integration
 
-> Disclaimer: The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Onewheeling, this is your next project.
-> This board is also intended to be a new standard that I hope others will follow. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby. I based the project on ESPHome, purely because it uses YAML for programming and is incredibly easy to build upon with extra modules, snazzy code etc...
-> If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. This has every technology that I currently understand implemented and turned up to 11, it's not meant to be easy to use, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
-
 ### Powertrain 
 - Controller: [JetFleet F6](https://www.jetfleet.store/product/15108255/controller-jetfleet-f6), [TRONIC X12](https://tronicsystems.com/products/x12-bareboard-no-enclosure), [ENNOID-ESC MK8](https://www.ennoid.me/esc/150v-esc)
 - BMS: [ENNOID-BMS Master-XLITE](https://www.ennoid.me/bms/master-xlite), [ENNOID-BMS XLITE-V4](https://www.ennoid.me/bms/xlite-v4), [Flipsky 4S-30S 20A BMS](https://flipsky.net/collections/bms/products/flipsky-4s-30s-20a-bms-protection-board-hardware-ternary-polymer-lithium-battery-only-charge-bms-board-for-onewheel-ebike-eskateboard-euc)
 - Cells: [Molicel P42A](https://www.molicel.com/wp-content/uploads/INR21700P42A-V4-80092.pdf), [Molicel P45B](https://www.molicel.com/wp-content/uploads/INR21700P45B_1.2_Product-Data-Sheet-of-INR-21700-P45B-80109.pdf), [Samsung 50S](https://www.dnkpower.com/wp-content/uploads/2022/07/SAMSUNG-INR21700-50S-Cell-Specification.pdf), [EVE 40P](https://www.rcscomponents.kiev.ua/datasheets/INR21700_40P.pdf?srsltid=AfmBOor8f9CQmFkExNRTm6Mq1A_Q03pWzBJgzzz9d33UfN2aQRMcYi1Q), [Samsung 40T](https://www.dnkpower.com/wp-content/uploads/2019/02/SAMSUNG-INR21700-40T-Datasheet.pdf), [TenPower 40TG](https://www.tenpowercell.com/wp-content/uploads/2022/12/TP-INR21700-40TG-Product-Datasheet-v1.4.1.pdf), [Sony VT6A](https://www.imrbatteries.com/content/murata_us21700vtc6a.pdf)
 > If you are unsure what Cell, Controller or BMS to use for this board, consider consulting an experienced VESC builder for assembly assistance. Please refer them to this repository
 
-## Primary Parts
+## Odyssey Parts
 
 - [Odyssey Control Board](#odyssey-control-board)
 - [Odyssey Lightsym Bars](#odyssey-lightsym-bar)
@@ -356,8 +356,10 @@ These are the absolute minimum requirements for 3D printing the **Odyssey series
 
 > You are expected to find your own 3D printer that meets these requirements. If this is outside of your budget, consider a 3D printing service.
 
-#### Odyssey Board Disclaimer
-- The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Onewheeling, this is your next project.
+---
+
+### Odyssey Board Disclaimer
+- The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Balance Boards, this is your next project.
 
 - The Avalon Series is based upon [ESPHome](https://esphome.io/) so that others can build upon the simple, yet powerful [YAML language](https://esphome.io/guides/getting_started_command_line.html) it uses. Some of the schematics have in-built but unused experimental modules for modification. For example, the [InfoBar](#infobar) (as of V1.0.0) does not use any 5V electronics, yet the schematic includes a 5V buck converter for the Battery. This is excluded from the [BOM](https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly) and PCB, however it would be fairly easy to integrate with little [PMIC](https://en.wikipedia.org/wiki/Power_management_integrated_circuit) experience. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby.
 
