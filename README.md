@@ -29,7 +29,7 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 
 ### Features
 - Voltage(V): 134.4V to 100.8V
-- Range(Km): 56-95 (134.4V), 40-65 (100.8V)
+- Range(Km): 50-90 (134.4V), 40-60 (100.8V)
 - Speed: [Yes](https://www.youtube.com/watch?v=zXf44tSWhBQ) (Over 2000W+ compared to video)
 - 10 x [70-100 Lumen White LEDs](https://www.lcsc.com/datasheet/lcsc_datasheet_2309141627_JNJ-OPTOELECTRONICS-JNJ-LTJH0111W60-26mil-8000-9000K_C7500127.pdf) (PWM Configurable)
 - 22 x [SK68812RGBW](https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf) Addressable LEDs
@@ -355,24 +355,73 @@ These are the absolute minimum requirements for 3D printing the **Odyssey series
 ---
 
 ### Odyssey Board Disclaimer
-- The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Balance Boards, this is your next project.
 
-- The Avalon Series is based upon [ESPHome](https://esphome.io/) so that others can build upon the simple, yet powerful [YAML language](https://esphome.io/guides/getting_started_command_line.html) it uses. Some of the schematics have in-built but unused experimental modules for modification. For example, the [InfoBar](#infobar) (as of V1.0.0) does not use any 5V electronics, yet the schematic includes a 5V buck converter for the Battery. This is excluded from the [BOM](https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly) and PCB, however it would be fairly easy to integrate with little [PMIC](https://en.wikipedia.org/wiki/Power_management_integrated_circuit) experience. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby.
+>The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Balance Boards, this is your next project.
 
-- If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. As an experienced VESC builder and PCB designer, this has every technology that I currently understand implemented and turned up to 11, it's not meant to be simple to build, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
+>The Avalon Series is based upon [ESPHome](https://esphome.io/) so that others can build upon the simple, yet powerful [YAML language](https://esphome.io/guides/getting_started_command_line.html) it uses. Some of the schematics have in-built but unused experimental modules for modification. For example, the [InfoBar](#infobar) (as of V1.0.0) does not use any 5V electronics, yet the schematic includes a 5V buck converter for the Battery. This is excluded from the [BOM](https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly) and PCB, however it would be fairly easy to integrate with little [PMIC](https://en.wikipedia.org/wiki/Power_management_integrated_circuit) experience. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby.
 
-- Another important note is the license. I am using the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) as it offers protection over liability and warranty (I am not a legal professional). This is not a malicious attempt to shift blame to the builder, but a way to protect myself against legal action. [Self-balancing devices are inherently dangerous](https://www.lawsuit-information-center.com/onewheel-injury-lawsuits-against-future-motion.html) and I am in no way a proffessional, I find it important that I can continue to work on this project for the forseeable future without concerns over venturing into new technologies. 
+>If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. As an experienced VESC builder and PCB designer, this has every technology that I currently understand implemented and turned up to 11, it's not meant to be simple to build, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
 
-- I have no plans to profit from these designs, nor do I have any plans to sell boards directly, especially since that would be [illegal](https://patents.google.com/patent/US9101817B2/en). However, I am available to comission to assemble some of the more complicated components.
+>Another important note is the license. I am using the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) as it offers protection over liability and warranty (I am not a legal professional). This is not a malicious attempt to shift blame to the builder, but a way to protect myself against legal action. [Self-balancing devices are inherently dangerous](https://www.lawsuit-information-center.com/onewheel-injury-lawsuits-against-future-motion.html) and I am in no way a proffessional, I find it important that I can continue to work on this project for the forseeable future without concerns over venturing into new technologies. 
+
+>I have no plans to profit from these designs, nor do I have any plans to sell boards directly, especially since that would be [illegal](https://patents.google.com/patent/US9101817B2/en). However, I am available to comission to assemble some of the more complicated components.
+
+---
+
+
+
+
 
 
 # Apollo
 
 > Swift and tireless, [Apollo](https://www.britannica.com/topic/Apollo-Greek-mythology) races the sun across the sky each day, his boundless energy unmatched, guiding light and life with unyielding endurance.
 
+The **Apollo** is the Lightest board in the **Avalon Series** of self-balancing boards. Boasting a 126.8V to 134.4V, 500Wh+ Capacity and 300+ Lumen lighting, the Apollo is the ideal Pocket Rocket. Contains Avalon exclusive features such as: IMU wake detection, Fingerprint Sensing, ESPHome integration etc.
+
+> Please read [Apollo Board Disclaimer](#apollo-board-disclaimer)
+
+### Features
+- Voltage(V): 126.8V to 134.4V
+- Range(Km): 30-40 (134.4V), 25-35 (126.8V)
+- Speed: [Yes](https://www.youtube.com/watch?v=zXf44tSWhBQ)
+- [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
+- [ESPHome](https://esphome.io/) integration
+
+> **Files relating to the Apollo are currently in a private reposity. Information about the board will be released closer to release.**
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Fenrir
 
 > A monstrous wolf in Norse mythology, [Fenrir](https://www.britannica.com/topic/Fenrir) is destined to bring about Ragnarök, breaking free from his chains to devour Odin.
+
+The **Fenrir** is the Cheapest board in the **Avalon Series** of self-balancing boards. Utilising 92.8V, 400Wh+ Capacity and 300+ Lumen lighting, the Fenrir is an ultra-durable Split-Pack Trick Board. Contains Avalon exclusive features such as: IMU wake detection, Fingerprint Sensing, ESPHome integration etc.
+
+> Please read [Fenrir Board Disclaimer](#fenrir-board-disclaimer)
+
+### Features
+- Voltage(V): 92.8V
+- Range(Km): 25-40
+- Speed: 25mph+
+- [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
+- [ESPHome](https://esphome.io/) integration
+
+> **Files relating to the Fenrir are currently in a private reposity. Information about the board will be released closer to release.**
+
+---
 
 
 
@@ -446,7 +495,7 @@ If you're working on a budget, Aliexpress offers cheaper but less reliable hardw
 
 > **DO NOT** purchase replacement PCB components from Aliexpress. If you require an SMD fix, purchase from [LCSC](https://www.lcsc.com/) or an equivalent from [Digikey](https://www.digikey.com/)
 
-# Avalon Series Tools & Hardware
+# Avalon Series Tools &Hardware
 The **Avalon Series** requires a lot of tools and miscellaneous parts to assemble. Here is a list of the most important, but not all of the products required to assemble your board.
 
 This section only covers the physical mounting hardware, for electronic parts, see individual components. 
