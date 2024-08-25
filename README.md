@@ -278,13 +278,13 @@ The **Odyssey Bumpers** are ultra-durable symmetrical bumpers designed for CNC [
 #### Image
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+  <img src="./resources/Image/Odyssey Bumper.png" alt="Odyssey Bumper Image"  />
 </p>
 
 #### Render
 
 <p align="Left">
-  <img src="./resources/Render/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Render"  />
+  <img src="./resources/Render/Odyssey Bumper.png" alt="Odyssey Bumper Render"  />
 </p>
 
 >See both the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) and [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) to determine your manufacturing method.
