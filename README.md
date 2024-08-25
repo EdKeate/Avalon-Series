@@ -1,10 +1,12 @@
 # Avalon Project
+![Display](./resources\Logo\Avalon.png)
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
 The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
 > Distributed under the [Apache 2.0 License](#License). Read LICENSE.md
 ## Lineup:
 - [Odyssey](#odyssey) Flagship 134.4V 1KWh+ Performance System
+![Display](./resources\Logo\Odyssey.png)
 - [Pathfinder:](#pathfinder) Capable 138.8V 500Wh+ Pocket Rocket (ETA Q4 2024)
 - [Questor:](#questor) Powerful 100.8V 400Wh+ Lightweight Commuter (ETA Q1 2025)
 
