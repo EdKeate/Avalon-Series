@@ -390,7 +390,9 @@ Based on the excellent [HA Sensor ePaper Display](https://github.com/maxmacstn/H
 
 
 # Avalon Machining Guidelines
-> CNC Manufacturing is expensive, consider taxes, shipping and economy of scale before ordering. If you are a VESC technician considering producing any number of **Avalon Series** Boards, shoot me a message regarding machining. 
+> CNC Manufacturing is expensive, consider taxes, shipping and economy of scale before ordering. If you are a VESC technician considering producing any number of **Avalon Series** Boards, shoot me a message regarding machining.
+
+[hubs.com](https://www.hubs.com)
 
 Below, you can find the guidelines and how-to for manufacturing the .STEP files provided for each CNC component.
 
