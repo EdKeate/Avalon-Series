@@ -1,4 +1,4 @@
-# Avalon Project
+# Avalon Series
 
 <p align="Left">
   <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" width="300" />
