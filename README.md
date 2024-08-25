@@ -16,9 +16,11 @@ The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project 
 >See also: [InfoBar](infobar), E-ink external display for the Avalon Series
 
 # Odyssey
+
 <p align="Left">
   <img src="./resources/Logo/Odyssey.png" alt="Odyssey Logo" width="300" />
 </p>
+
 > The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
 The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
@@ -119,13 +121,13 @@ The labels on these inputs correlates with the labels on the [Odyssey Control Bo
 **Top**
 
 <p align="Left">
-  <img src="./resources/PCB/LightSym Bar Top.png" alt="Odyssey LighSym Bar PCB Top"  />
+  <img src="./resources/PCB/LightSym Bar Top.png" alt="Odyssey LightSym Bar PCB Top"  />
 </p>
 
 **Bottom**
 
 <p align="Left">
-  <img src="./resources/PCB/LightSym Bar Bottom.png" alt="Odyssey LighSym Bar PCB Bottom"  />
+  <img src="./resources/PCB/LightSym Bar Bottom.png" alt="Odyssey LightSym Bar PCB Bottom"  />
 </p>
 
 ## Odyssey Controller Box
