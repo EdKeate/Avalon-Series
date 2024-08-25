@@ -1,4 +1,4 @@
-# Avalon Project
+# Avalon Series
 
 <p align="Left">
   <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" width="300" />
@@ -24,6 +24,9 @@ The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project 
 > The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
 The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
+
+> Please read [Odyssey Board Disclaimer](#Odyssey-Board-Disclaimer)
+
 ### Features
 - Voltage(V): 134.4V to 100.8V
 - Range(Km): 56-95 (134.4V), 40-65 (100.8V)
@@ -32,6 +35,10 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 - 22 x [SK68812RGBW](https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf) Addressable LEDs
 - [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
 - [ESPHome](https://esphome.io/) integration
+
+> Disclaimer: The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Onewheeling, this is your next project.
+> This board is also intended to be a new standard that I hope others will follow. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby. I based the project on ESPHome, purely because it uses YAML for programming and is incredibly easy to build upon with extra modules, snazzy code etc...
+> If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. This has every technology that I currently understand implemented and turned up to 11, it's not meant to be easy to use, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
 
 ### Powertrain 
 - Controller: [JetFleet F6](https://www.jetfleet.store/product/15108255/controller-jetfleet-f6), [TRONIC X12](https://tronicsystems.com/products/x12-bareboard-no-enclosure), [ENNOID-ESC MK8](https://www.ennoid.me/esc/150v-esc)
@@ -145,7 +152,7 @@ The **Odyssey Controller Box** is a split pack enclosure designed for 6S2P 21700
 #### Image
 
 <p align="Left">
-  <img src="./resources/image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+  <img src="./resources/Image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
 </p>
 
 #### Render
@@ -278,13 +285,13 @@ The **Odyssey Bumpers** are ultra-durable symmetrical bumpers designed for CNC [
 #### Image
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+  <img src="./resources/Image/Odyssey Bumper.png" alt="Odyssey Bumper Image"  />
 </p>
 
 #### Render
 
 <p align="Left">
-  <img src="./resources/Render/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Render"  />
+  <img src="./resources/Render/Odyssey Bumper.png" alt="Odyssey Bumper Render"  />
 </p>
 
 >See both the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) and [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) to determine your manufacturing method.
@@ -301,11 +308,11 @@ The **Odyssey Fenders** are optional add-ons for your Odyssey board that further
 #### Image
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Fender(F).png" alt="Odyssey Controller Fender(F)"  />
+  <img src="./resources/Image/Odyssey Fender (F).png" alt="Odyssey Controller Fender(F)"  />
 </p>
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Fender(R).png" alt="Odyssey Controller Fender(R)"  />
+  <img src="./resources/Image/Odyssey Fender (R).png" alt="Odyssey Controller Fender(R)"  />
 </p>
 
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Fenders.
@@ -349,6 +356,18 @@ These are the absolute minimum requirements for 3D printing the **Odyssey series
 
 > You are expected to find your own 3D printer that meets these requirements. If this is outside of your budget, consider a 3D printing service.
 
+#### Odyssey Board Disclaimer
+- The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Onewheeling, this is your next project.
+
+- The Avalon Series is based upon [ESPHome](https://esphome.io/) so that others can build upon the simple, yet powerful [YAML language](https://esphome.io/guides/getting_started_command_line.html) it uses. Some of the schematics have in-built but unused experimental modules for modification. For example, the [InfoBar](#infobar) (as of V1.0.0) does not use any 5V electronics, yet the schematic includes a 5V buck converter for the Battery. This is excluded from the [BOM](https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly) and PCB, however it would be fairly easy to integrate with little [PMIC](https://en.wikipedia.org/wiki/Power_management_integrated_circuit) experience. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby.
+
+- If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. As an experienced VESC builder and PCB designer, this has every technology that I currently understand implemented and turned up to 11, it's not meant to be simple to build, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
+
+- Another important note is the license. I am using the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) as it offers protection over liability and warranty (I am not a legal professional). This is not a malicious attempt to shift blame to the builder, but a way to protect myself against legal action. [Self-balancing devices are inherently dangerous](https://www.lawsuit-information-center.com/onewheel-injury-lawsuits-against-future-motion.html) and I am in no way a proffessional, I find it important that I can continue to work on this project for the forseeable future without concerns over venturing into new technologies. 
+
+- I have no plans to profit from these designs, nor do I have any plans to sell boards directly, especially since that would be [illegal](https://patents.google.com/patent/US9101817B2/en). However, I am available to comission to assemble some of the more complicated components.
+
+- Please for the love of god, if you have my number somehow, do not text or call me. This has been an issue previously.
 
 
 
@@ -390,7 +409,9 @@ Based on the excellent [HA Sensor ePaper Display](https://github.com/maxmacstn/H
 
 
 # Avalon Machining Guidelines
-> CNC Manufacturing is expensive, consider taxes, shipping and economy of scale before ordering. If you are a VESC technician considering producing any number of **Avalon Series** Boards, shoot me a message regarding machining. 
+> CNC Manufacturing is expensive, consider taxes, shipping and economy of scale before ordering. If you are a VESC technician considering producing any number of **Avalon Series** Boards, shoot me a message regarding machining.
+
+[hubs.com](https://www.hubs.com)
 
 Below, you can find the guidelines and how-to for manufacturing the .STEP files provided for each CNC component.
 
