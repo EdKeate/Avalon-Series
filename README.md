@@ -1,18 +1,26 @@
 # Avalon Project
-![Odyssey](https://raw.githubusercontent.com/EdKeate/Avalon-Series/master/resources/Logo/odyssey.png)
+
+<p align="Left">
+  <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" width="300" />
+</p>
+
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
 The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
 > Distributed under the [Apache 2.0 License](#License). Read LICENSE.md
 ## Lineup:
-- [Odyssey](#odyssey) Flagship 134.4V 1KWh+ Performance System
-![Display](./resources\Logo\Odyssey.png)
-- [Pathfinder:](#pathfinder) Capable 138.8V 500Wh+ Pocket Rocket (ETA Q4 2024)
-- [Questor:](#questor) Powerful 100.8V 400Wh+ Lightweight Commuter (ETA Q1 2025)
+- [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System
+- [Pathfinder:](pathfinder) Capable 138.8V 500Wh+ Pocket Rocket **(ETA Q4 2024)**
+- [Questor:](questor) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA Q1 2025)**
 
->See also: [InfoBar](#infobar), E-ink external display for the Avalon Series
+>See also: [InfoBar](infobar), E-ink external display for the Avalon Series
 
-# Odsyssey
+# Odyssey
+
+<p align="Left">
+  <img src="./resources/Logo/Odyssey.png" alt="Odyssey Logo" width="300" />
+</p>
+
 > The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
 The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
@@ -66,9 +74,23 @@ $$
 > The Odyssey Control Board is uses the high voltage battery DC input. Ensure proper safety measures are used to prevent damage to ~~battery~~ everything ~~within 5 mile radius~~.
 #### Schematic
 
+<p align="Left">
+  <img src="./resources/Schematic/Odyssey Control Board.png" alt="Odyssey Control Board Schematic"  />
+</p>
+
 #### PCB
 
-#### 3D Model
+**Top**
+
+<p align="Left">
+  <img src="./resources/PCB/Control Board Top.png" alt="Odyssey Control Board PCB (Top)" />
+</p>
+
+**Bottom**
+
+<p align="Left">
+  <img src="./resources/PCB/Control Board Bottom.png" alt="Odyssey Control Board PCB (Bottom)" />
+</p>
 
 > Control Boards are designed for expandability. A powerful and efficient 5V rail is integrated into the Schematics, but not the PCB or BOM. See [files](Odyssey/Control%20Board/PCBs/EasyEDA) for more information.
 
@@ -90,9 +112,23 @@ The labels on these inputs correlates with the labels on the [Odyssey Control Bo
 > You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). See [Electronics Purchasing Guide](#Electronics-Purchasing-Guide) for more information.
 #### Schematic
 
+<p align="Left">
+  <img src="./resources/Schematic/LightSym Bar.png" alt="OdysseyLightSym Bar Schematic"  />
+</p>
+
 #### PCB
 
-#### 3D Model
+**Top**
+
+<p align="Left">
+  <img src="./resources/PCB/LightSym Bar Top.png" alt="Odyssey LightSym Bar PCB Top"  />
+</p>
+
+**Bottom**
+
+<p align="Left">
+  <img src="./resources/PCB/LightSym Bar Bottom.png" alt="Odyssey LightSym Bar PCB Bottom"  />
+</p>
 
 ## Odyssey Controller Box
 [CAD Files](Odyssey/Controller%20Casing)
@@ -106,9 +142,17 @@ The **Odyssey Controller Box** is a split pack enclosure designed for 6S2P 21700
 - M20 Gland Hole
 - Steel reinforcement bolt system
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Controller Box.
-#### 3D Model
+#### Image
+
+<p align="Left">
+  <img src="./resources/image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+</p>
 
 #### Render
+
+<p align="Left">
+  <img src="./resources/Render/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Render"  />
+</p>
 
 ## Odyssey Battery Box
 [CAD Files](Odyssey/Battery%20Casing)
@@ -120,9 +164,17 @@ The **Odyssey Battery Box** has capacity for 24S2P 21700. For cell and BMS optio
 - M20 Gland Hole
 - Steel reinforcement bolt system
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Battery Casing.
-#### 3D Model
+#### Image
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Battery Casing.png" alt="Odyssey Battery Casing Image"  />
+</p>
 
 #### Render
+
+<p align="Left">
+  <img src="./resources/Render/Odyssey Battery Casing.png" alt="Odyssey Battery Casing Render"  />
+</p>
 
 ## Odyssey Series Rails
 [CAD Files](Odyssey/Rails)
@@ -137,9 +189,27 @@ The Flagship rails. Designed to be **light-weight** and strong using a completel
 - Unique "Trace" skeletisation
 - 5°lowered, 3° lifted
 - 4° tail lift
-#### 3D Model
+#### Image
 
-#### Render
+**Left Rail**
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (Skeletonised)(L)(1).png" alt="Odyssey Rail (Skeletonised)(L)(1)"  />
+</p>
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (Skeletonised)(L)(2).png" alt="Odyssey Rail (Skeletonised)(L)(2)"  />
+</p>
+
+**Right Rail**
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (Skeletonised)(R)(1).png" alt="Odyssey Rail (Skeletonised)(R)(1)"  />
+</p>
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (Skeletonised)(R)(2).png" alt="Odyssey Rail (Skeletonised)(R)(2)"  />
+</p>
 
 ### Odyssey Rails
 Cheaper Flagship rails. Designed to be **light-weight** and strong at a lower cost. 
@@ -148,9 +218,25 @@ Cheaper Flagship rails. Designed to be **light-weight** and strong at a lower co
 - 5°lowered, 3° lifted
 - 4° tail lift
 >See the [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) for information on how to manufacture your Rails.
-#### 3D Model
+#### Image
 
-#### Render
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (L)(1).png" alt="Odyssey Rail (L)(1)"  />
+</p>
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (L)(2).png" alt="Odyssey Rail (L)(2)"  />
+</p>
+
+**Right Rail**
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (R)(1).png" alt="Odyssey Rail (R)(1)"  />
+</p>
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Rail (R)(2).png" alt="Odyssey Rail (R)(2)"  />
+</p>
 
 ## Odyssey Footpads
 
@@ -165,9 +251,17 @@ The **Odyssey Footpads** take inspiration from [Stanley Shaw's](https://vow.syst
 - Super thin for locked-in feel
 
 
-#### 3D Model
+#### Image
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Footpad.png" alt="Odyssey Footpad Image"  />
+</p>
 
 #### Render
+
+<p align="Left">
+  <img src="./resources/Render/Odyssey Footpad.png" alt="Odyssey Footpad Render"  />
+</p>
 
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Footpads.
 
@@ -181,9 +275,17 @@ The **Odyssey Bumpers** are ultra-durable symmetrical bumpers designed for CNC [
 - Symmetrical front and back bumpers
 - Ultra-thin, yet durable
 - Multiple Mounting configurations
-#### 3D Model
+#### Image
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+</p>
 
 #### Render
+
+<p align="Left">
+  <img src="./resources/Render/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Render"  />
+</p>
 
 >See both the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) and [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) to determine your manufacturing method.
 >
@@ -196,9 +298,15 @@ The **Odyssey Fenders** are optional add-ons for your Odyssey board that further
 - Super small [FDM](https://www.hubs.com/knowledge-base/what-is-fdm-3d-printing/) print
 - Integrated shell covers for O-rings and Connectors to further protect against water ingress.
 
-#### 3D Model
+#### Image
 
-#### Render
+<p align="Left">
+  <img src="./resources/Image/Odyssey Fender(F).png" alt="Odyssey Controller Fender(F)"  />
+</p>
+
+<p align="Left">
+  <img src="./resources/Image/Odyssey Fender(R).png" alt="Odyssey Controller Fender(R)"  />
+</p>
 
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Fenders.
 
@@ -267,9 +375,13 @@ The InfoBar is an [ESPHome](https://esphome.io/) based [E-ink display](https://w
 
 ### Schematic
 
+<p align="Left">
+  <img src="./resources/Schematic/InfoBar.png" alt="InfoBar Schematic"  />
+</p>
+
 ### PCB
 
-### 3D Model
+TBD
 
 ## Assembly
 Based on the excellent [HA Sensor ePaper Display](https://github.com/maxmacstn/HA-ePaper-Display) by [Sitinut Waisara](https://github.com/maxmacstn).
