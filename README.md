@@ -1,7 +1,8 @@
 # Avalon Project
-> Avalon "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
+> **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
 The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
+> Distributed under the [Apache 2.0 License](#License). Read LICENSE.md
 ## Lineup:
 - [Odyssey](#odyssey) Flagship 134.4V 1KWh+ Performance System
 - [Pathfinder:](#pathfinder) Capable 138.8V 500Wh+ Pocket Rocket (ETA Q4 2024)
@@ -10,9 +11,9 @@ The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project 
 >See also: [InfoBar](#infobar), E-ink external display for the Avalon Series
 
 # Odsyssey
-> The _Odyssey_ is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
+> The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
-The Odyssey is the Flagship board in the Avalon Series of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
+The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
 ### Features
 - Voltage(V): 134.4V to 100.8V
 - Range(Km): 56-95 (134.4V), 40-65 (100.8V)
@@ -21,7 +22,6 @@ The Odyssey is the Flagship board in the Avalon Series of self-balancing boards.
 - 22 x [SK68812RGBW](https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf) Addressable LEDs
 - [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
 - [ESPHome](https://esphome.io/) integration
- > Control Boards are designed for expandability. A powerful and efficient 5V rail is integrated into the Schematics, but not the PCB or BOM. See [files](Odyssey/Control%20Board/PCBs/EasyEDA) for more information.
 
 ### Powertrain 
 - Controller: [JetFleet F6](https://www.jetfleet.store/product/15108255/controller-jetfleet-f6), [TRONIC X12](https://tronicsystems.com/products/x12-bareboard-no-enclosure), [ENNOID-ESC MK8](https://www.ennoid.me/esc/150v-esc)
@@ -40,30 +40,40 @@ The Odyssey is the Flagship board in the Avalon Series of self-balancing boards.
 - [Odyssey Bumpers](#odyssey-bumpers)
 - [Odyssey Fender](#odyssey-fender)
 - [Odyssey Axle Blocks](#odyssey-axle-blocks)
+- [Avalon Series Tools & Hardware](#Avalon-Series-Tools--Hardware)
 
 ## Odyssey Control Board
-The **Odyssey Control Board** is designed inside [EasyEDA](EasyEDA.com) and is intended to be assembled using [JLCPCB Economic Assembly](https://jlcpcb.com/capabilities/pcb-assembly-capabilities). 
 
 [EasyEDA Files](Odyssey/Control%20Board/PCBs/EasyEDA)
 [ESP32 Code + Flashing](Odyssey/Control%20Board/Code)
 
-The Control Board communicates with/powers:
+The **Odyssey Control Board** is designed inside [EasyEDA](EasyEDA.com) and is intended to be assembled using [JLCPCB Economic Assembly](https://jlcpcb.com/capabilities/pcb-assembly-capabilities). 
 
-- The R503 Fingerprint Sensor
+The Control Board communicates with/powers:
+- The [R503-M22 Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) 
 - 2 x [Odyssey Lightsym Bars](#odyssey-lightsym-bar)
 - ESP Home integration using an [Espressif Systems ESP32-WROOM-32E-N8](https://www.lcsc.com/datasheet/lcsc_datasheet_2403071012_Espressif-Systems-ESP32-WROOM-32E-N8_C701342.pdf) as the [MCU](https://en.wikipedia.org/wiki/Microcontroller)
 - VESC Power ([SSR Relay](https://www.lcsc.com/datasheet/lcsc_datasheet_1808101047_TOSHIBA-TLP172GM-TPL-E-O_C261926.pdf) control)
 
-You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). These parts are not available in the JLCPCB parts library and will need to be assembled separately. 
-> The Odyssey Control Board is uses a high voltage DC input. Ensure proper safety measures are used to prevent damage to ~~battery~~ everything ~~within 5 mile radius~~.
+The Control board is an **Always-On** Deep-Sleep system. The ultra-efficient design and massive battery pack allows for an ~2 years battery life. Below shows an example of how to calculate this (5V, 10mA~avg~, 89%~eff~):
+$$
+T = \frac{3.6 \times 5 \times 30 \times 2}{\frac{5 \times 0.01}{0.89}} \approx 19223 \text{ hours}
+$$
+>You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). See [Electronics Purchasing Guide](#Electronics-Purchasing-Guide) for more information.
 
+> The Odyssey Control Board is uses the high voltage battery DC input. Ensure proper safety measures are used to prevent damage to ~~battery~~ everything ~~within 5 mile radius~~.
+#### Schematic
 
+#### PCB
+
+#### 3D Model
+
+> Control Boards are designed for expandability. A powerful and efficient 5V rail is integrated into the Schematics, but not the PCB or BOM. See [files](Odyssey/Control%20Board/PCBs/EasyEDA) for more information.
 
 ## Odyssey LightSym Bar
+[EasyEDA Files](Odyssey/LightSym%20Bar/PCBs/EasyEDA)
 
 The **Odyssey LightSym Bar** is designed inside [EasyEDA](EasyEDA.com) and is intended to be assembled using [JLCPCB Economic Assembly](https://jlcpcb.com/capabilities/pcb-assembly-capabilities). 
-
-[EasyEDA Files](Odyssey/LightSym%20Bar/PCBs/EasyEDA)
 
 The LightSym Bar has 15 inputs:
 - 5 x 5V
@@ -75,86 +85,239 @@ The LightSym Bar has 15 inputs:
 - 1 x GND
 
 The labels on these inputs correlates with the labels on the [Odyssey Control Board](#odyssey-control-board).
+> You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). See [Electronics Purchasing Guide](#Electronics-Purchasing-Guide) for more information.
+#### Schematic
 
-You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). These parts are not available in the JLCPCB parts library and will need to be assembled separately. 
+#### PCB
 
+#### 3D Model
 
 ## Odyssey Controller Box
-The **Odyssey Controller Box** has capacity for 24S2P 21700. For cell options, please see the [Powertrain](#powertrain) section. 
-
 [CAD Files](Odyssey/Controller%20Casing)
+
+The **Odyssey Controller Box** is a split pack enclosure designed for 6S2P 21700. For Controller & Cell options, please see the [Powertrain](#powertrain) section. 
+### Features:
+- **Dual** [TPU](https://formlabs.com/uk/blog/complete-guide-tpu-3d-printing/) O-ring
+- [R503-M22 Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) 
+- [Superflux Connector](https://www.fungineers.us/products/superflux-female-connector)
+- Dual Compartment Design
+- M20 Gland Hole
+- Steel reinforcement bolt system
+>See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Controller Box.
+#### 3D Model
+
+#### Render
+
+## Odyssey Battery Box
+[CAD Files](Odyssey/Battery%20Casing)
+
+The **Odyssey Battery Box** has capacity for 24S2P 21700. For cell and BMS options, please see the [Powertrain](#powertrain) section. 
 ### Features:
 - **Dual** [TPU](https://formlabs.com/uk/blog/complete-guide-tpu-3d-printing/) O-ring
 - [GX16](https://www.sunrom.com/download/663.pdf) Charge port
 - M20 Gland Hole
 - Steel reinforcement bolt system
+>See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Battery Casing.
+#### 3D Model
 
-### Hardware
-- M3x8mm CSK Pozi
->See the [3D Printing Guidelines](#3d-printing-guidelines) for information on how to manufacture this box.
+#### Render
 
-## Odyssey Battery Box
-[CAD Files](Odyssey/Battery%20Casing)
-
->See the [3D Printing Guidelines](#3d-printing-guidelines) for information on how to manufacture this box.
-
-## Odyssey Rails
+## Odyssey Series Rails
 [CAD Files](Odyssey/Rails)
 
+The **Odyssey Series** has several unique rail designs. Find yours here:
+- [Odyssey Rails](#Odyssey-rails)
+- [Odyssey Rails (Skeletonised)](#Odyssey-rails)
+### Odyssey Rails (Skeletonised)
+The Flagship rails. Designed to be **light-weight** and strong using a completely unique skeletisation design. 
+**Statistics:**
+- 12" wheel-well (BTG)
+- Unique "Trace" skeletisation
+- 5°lowered, 3° lifted
+- 4° tail lift
+#### 3D Model
 
+#### Render
+
+### Odyssey Rails
+Cheaper Flagship rails. Designed to be **light-weight** and strong at a lower cost. 
+**Statistics:**
+- 12" wheel-well (BTG)
+- 5°lowered, 3° lifted
+- 4° tail lift
+>See the [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) for information on how to manufacture your Rails.
+#### 3D Model
+
+#### Render
 
 ## Odyssey Footpads
+
 [CAD Files](Odyssey/Footpads)
 
->See the [3D Printing Guidelines](#3d-printing-guidelines) for information on how to manufacture this box.
+The **Odyssey Footpads** take inspiration from [Stanley Shaw's](https://vow.systems/) [Mushies](https://vow.systems/products/gt-mushies). Go check out his designs!
+
+**Features:**
+- Supports hard([PLA](https://help.prusa3d.com/article/pla_2062), [ASA](https://help.prusa3d.com/article/asa_1809)) or Soft ([TPU](https://ninjatek.com/shop/ninjaflex/)) [FDM](https://www.hubs.com/knowledge-base/what-is-fdm-3d-printing/) printing for hard or soft footpads
+- Mirrored pads (Same design front and rear)
+- Light Concave
+- Super thin for locked-in feel
+
+
+#### 3D Model
+
+#### Render
+
+>See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Footpads.
 
 ## Odyssey Bumpers
 [CAD Files](Odyssey/Bumpers)
 
+The **Odyssey Bumpers** are ultra-durable symmetrical bumpers designed for CNC [UHMWPE](https://www.hubs.com/cnc-machining/plastic/hdpe/uhmwpe/) or [FDM](https://www.hubs.com/knowledge-base/what-is-fdm-3d-printing/) manufacturing. 
+
+**Features:**
+- Supports [FDM](https://www.hubs.com/knowledge-base/what-is-fdm-3d-printing/) printing or [UHMWPE](https://www.hubs.com/cnc-machining/plastic/hdpe/uhmwpe/) manufacturing.
+- Symmetrical front and back bumpers
+- Ultra-thin, yet durable
+- Multiple Mounting configurations
+#### 3D Model
+
+#### Render
+
+>See both the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) and [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) to determine your manufacturing method.
+>
 ## Odyssey Fender
 [CAD Files](Odyssey/Fender)
 
->See the [3D Printing Guidelines](#3d-printing-guidelines) for information on how to manufacture this box.
+The **Odyssey Fenders** are optional add-ons for your Odyssey board that further protect the [Odyssey Battery Box](#odyssey-battery-box) and [Odyssey Controller Box](#odyssey-controller-box) from corrosion.
+
+**Features:**
+- Super small [FDM](https://www.hubs.com/knowledge-base/what-is-fdm-3d-printing/) print
+- Integrated shell covers for O-rings and Connectors to further protect against water ingress.
+
+#### 3D Model
+
+#### Render
+
+>See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Fenders.
 
 ## Odyssey Axle Blocks
 [CAD Files](Odyssey/Axle%20Blocks)
+TBD
+
+
+
+
+
+
+
+# Odyssey 3D Printing Guidelines
+> If you aren't used to 3D printing or don't know where to start, I would recommend consulting an expert. Due to the dangerous nature of all self-balancing devices, 3D prints need to be strong, accurate and reliable.
+
+## Solid Prints
+Below, you can find the material recommendations and mechanical requirements for **SOLID** 3D prints for the **Odyssey Series** of Board. 
+
+### Minimum Specification
+These are the absolute minimum requirements for 3D printing the **Odyssey series** solid components:
+- Print Volume: 350mm x 350mm x 150mm 
+- Material: [ABS](https://www.prusa3d.com/category/asa-abs/), [ASA](https://www.prusa3d.com/category/prusament-asa/), [PETG](https://www.prusa3d.com/category/prusament-petg/)
+- Wall Thickness: 2-3x nozzle diameter
+- Infill: >15%
+> [How to make 3D prints waterproof](https://all3dp.com/2/waterproof-3d-print-pla/)
+### Recommended Specification
+- Material: [PC-CF](https://www.prusa3d.com/product/prusament-pc-blend-jet-black-970g/), [PA (Nylon)](https://www.prusa3d.com/category/prusament-pa-nylon/)
+- [Support Material](https://dddrop.com/3d-printing-with-support-material/) (Ideally [Water Soluble](https://www.stratasys.com/en/materials/materials-catalog/fdm-materials/fdm-support-materials/#:~:text=Soluble%20support%20is%20most%20effective,submerged%20in%20the%20dissolution%20tank.))
+- Infill: >20% ([Honey Pattern](https://all3dp.com/2/get-cura-honeycomb-infill/))
+
+## Flexible Prints
+
+Below, you can find the material recommendations and mechanical requirements for **FLEXIBLE** 3D prints for the **Odyssey Series** of Board.
+### Minimum Specification
+These are the absolute minimum requirements for 3D printing the **Odyssey series** flexible components
+- Print Volume: 350mm x 350mm x 100mm 
+- Material: [TPU](https://ninjatek.com/shop/ninjaflex/)
+- Infill: 100%
+
+> You are expected to find your own 3D printer that meets these requirements. If this is outside of your budget, consider a 3D printing service.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # InfoBar
 The InfoBar is an [ESPHome](https://esphome.io/) based [E-ink display](https://www.waveshare.com/4.2inch-e-paper-module.htm) with [Automatic PSU switching](https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LTC4412IS6-TRPBF_C521306.pdf), [Single Cell BMS](https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_TPOWER-TP4056_C382139.pdf) and a single [USB-C](https://www.lcsc.com/datasheet/lcsc_datasheet_1811151656_HOOYA-USB-310F-B-SU_C309365.pdf) for flashing and charging.
 ### Features
 - 6-month battery life
 - 4.2 inch 400x600 resolution [E-ink display](https://www.waveshare.com/4.2inch-e-paper-module.htm)
-- Pre-ride weather updates (requires configuration)
+- Pre-ride weather information (requires configuration)
 - Board statistics display (Updates every 5 minutes)
-- User Log (Requires Fingerprint Sensor)
-> The InfoBar can only send/receive information to other devices on the ESPHome system. Do not attempt to integrate with your VESC-based speed controller as this will cause memory and pin allocation issues which will inevitably brick your VESC-based speed controller (The Odyssey Control Board is isolated for a reason)
+- User Log (Requires [R503 Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001))
+> The InfoBar can only send/receive information to other devices on the ESPHome system. Do not attempt to integrate with your VESC-based speed controller as this will cause memory and pin allocation issues which will inevitably brick your VESC-based speed controller (The [Odyssey Control Board](#Odyssey-Control-Board) is isolated for a reason)
 
-> User log is stored inside Sensor memory. Your Biometric data will never be shared to or stored by other individuals without your consent. 
+> User log is stored inside Sensor memory. **Your Biometric data will never be shared to or stored by other individuals without your consent**. 
 
-# Odyssey 3D Printing Guidelines
-> If you aren't used to 3D printing or don't know where to start, I would recommend consulting an expert. Due to the dangerous nature of all self-balancing devices, 3D prints need to be strong, accurate and reliable.
+### Schematic
 
-Below, you can find the material recommendations and mechanical requirements for 3D prints for the Odyssey Self-balancing skateboard. 
+### PCB
 
-## Minimum Specification
-These are the absolute minimum requirements for 3D printing the Odyssey series 3D printed components. 
-- Print Volume: 350mm x 350mm x 150mm 
-- Material: [ABS](https://www.prusa3d.com/category/asa-abs/), [ASA](https://www.prusa3d.com/category/prusament-asa/), [PETG](https://www.prusa3d.com/category/prusament-petg/)
-- Wall Thickness: 2-3x nozzle diameter
-- Infill: >15%
-> [How to make 3D prints waterproof](https://all3dp.com/2/waterproof-3d-print-pla/)
-## Recommended Specification
-- Material: [PC-CF](https://www.prusa3d.com/product/prusament-pc-blend-jet-black-970g/), [PA (Nylon)](https://www.prusa3d.com/category/prusament-pa-nylon/)
-- [Support Material](https://dddrop.com/3d-printing-with-support-material/) (Ideally [Water Soluble](https://www.stratasys.com/en/materials/materials-catalog/fdm-materials/fdm-support-materials/#:~:text=Soluble%20support%20is%20most%20effective,submerged%20in%20the%20dissolution%20tank.))
-- Infill: >20% ([Honey Pattern](https://all3dp.com/2/get-cura-honeycomb-infill/))
-> You are expected to find your own 3D printer that meets these requirements. If this is outside of your budget, consider a 3D printing service.
+### 3D Model
 
-# Avalon Series Tools + Hardware
+## Assembly
+Based on the excellent [HA Sensor ePaper Display](https://github.com/maxmacstn/HA-ePaper-Display) by [Sitinut Waisara](https://github.com/maxmacstn).
+
+
+
+
+# Avalon Machining Guidelines
+> CNC Manufacturing is expensive, consider taxes, shipping and economy of scale before ordering. If you are a VESC technician considering producing any number of **Avalon Series** Boards, shoot me a message regarding machining. 
+
+Below, you can find the guidelines and how-to for manufacturing the .STEP files provided for each CNC component.
+
+### Minimum Specification
+These are the absolute minimum requirements for CNC manufacturing **Avalon Series** products:
+- Material: [AlMg1SiCu](https://www.hubs.com/cnc-machining/metal/aluminum/aluminum-6061/), [AlSi1MgMn](https://www.hubs.com/cnc-machining/metal/aluminum/aluminum-6082/)
+- [Post-Process:](https://www.hubs.com/knowledge-base/surface-finishes-cnc-machinings/) [Bead Blasting](https://www.hubs.com/surface-finishing-services/bead-blasting-services/) / None
+### Recommended Specification
+- Material: [AlZn5](https://www.hubs.com/cnc-machining/metal/aluminum/aluminum-7075-6/)
+- [Post-Process:](https://www.hubs.com/knowledge-base/surface-finishes-cnc-machinings/) [Anodization](https://www.hubs.com/knowledge-base/what-is-anodizing/) [Type II or Type III](https://www.hubs.com/knowledge-base/type-ii-vs-type-iii-anodizing-what-does-your-project-require/)
+
+If you **DO NOT** opt for Anodization or another form of post-processing, please ensure you choose a **non-corrosive** metal! 
+> You are not expected to know anyone with a CNC Machine. If you happen to, these rails will probably exceed their Machine bed max dimensions. 
+> 
+# Electronics Purchasing Guide
+The **Avalon Series** uses several thousand unique and specialist parts to operate. As these cannot all come from the same source, some assembly is required. 
+## Digikey
+[Digi-Key](https://www.digikey.com/) is a **global distributor** of electronic components, offering a vast selection of products, tools, and resources for engineers and makers. They are incredibly reliable and a **highly recommended** purchase option.
+
+> You can find a full list of every part I use to make **Avalon Series Boards** via this [Digikey Shared List](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). You can also source some of the parts from [LCSC](https://www.lcsc.com/) when you purchase the PCBs.
+
+## Adafruit Industries
+
+If you've got the cash, [Adafruit Industries](https://www.adafruit.com/) is a super reliable website supporting great people. I have used plenty of their guides and datasheets to create these boards, so show them some love!
+
+## Aliexpress
+If you're working on a budget, Aliexpress offers cheaper but less reliable hardware. Try to avoid purchasing parts from here, but if you do, here's what to watch out for:
+
+ - **Reviews**. 4 Stars+ and 10 reviews is my benchmark, but that may not be easy to find. Also read reviews as bots are rife on the electronics side of Aliexpress. 
+ - **Brand**. Sometimes products you can purchase are not identical to the datasheets provided, this may cause communication problems between components. Ideally products are associated with the appropriate brand, this is especially important with powertrain electronics. (Don't buy an Aliexpress VESC)
+ - **Connections**. All PCBs have been designed to be compatible with parts from the [Adafruit Industries](https://www.adafruit.com/) website, some products may look similar, but use different connectors. This will require soldering/crimping to fix. 
+
+> **DO NOT** purchase replacement PCB components from Aliexpress. If you require an SMD fix, purchase from [LCSC](https://www.lcsc.com/) or an equivalent from [Digikey](https://www.digikey.com/)
+
+# Avalon Series Tools & Hardware
 The **Avalon Series** requires a lot of tools and miscellaneous parts to assemble. Here is a list of the most important, but not all of the products required to assemble your board.
 
 This section only covers the physical mounting hardware, for electronic parts, see individual components. 
 > Tool & Part Links are listed in format: "Name: UK Distributor / US Distributor" where applicable.
-> If you're planning on wet riding, ensure you choose parts resistant to corrosion. 
+
+> If you're planning on wet riding, ensure you choose [parts resistant to corrosion (A4)](https://www.accu.co.uk/p/114-grades-of-austenitic-stainless-steel#:~:text=and%20UNS%20S30400.-,A4,harsh%20chemical%20and%20outdoor%20environments.).
 
 ## Tools
 - Pinecil V2 Soldering Iron: [Global](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/)
@@ -173,3 +336,18 @@ This section only covers the physical mounting hardware, for electronic parts, s
 
 > The websites listed are wholesalers due to the large number of duplicate parts. If you haven't used a wholesaler before, try and aim for the lowest price break so you have spares and save money. 
 
+
+# License
+Copyright 2024 Edward Keate
+   
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ > http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
