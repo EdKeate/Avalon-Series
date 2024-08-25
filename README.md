@@ -68,10 +68,12 @@ The Control Board communicates with/powers:
 - ESP Home integration using an [Espressif Systems ESP32-WROOM-32E-N8](https://www.lcsc.com/datasheet/lcsc_datasheet_2403071012_Espressif-Systems-ESP32-WROOM-32E-N8_C701342.pdf) as the [MCU](https://en.wikipedia.org/wiki/Microcontroller)
 - VESC Power ([SSR Relay](https://www.lcsc.com/datasheet/lcsc_datasheet_1808101047_TOSHIBA-TLP172GM-TPL-E-O_C261926.pdf) control)
 
-The Control board is an **Always-On** Deep-Sleep system. The ultra-efficient design and massive battery pack allows for an ~2 years battery life. Below shows an example of how to calculate this (5V, 10mA~avg~, 89%~eff~):
+The Control board is an **Always-On** Deep-Sleep system. The ultra-efficient design and massive battery pack allows for an ~2 years battery life. Below shows an example of how to calculate this (5V, 10mAavg, 89%eff):
+
 $$
 T = \frac{3.6 \times 5 \times 30 \times 2}{\frac{5 \times 0.01}{0.89}} \approx 19223 \text{ hours}
 $$
+
 >You will also need to purchase parts from [Digikey](https://www.digikey.co.uk/en/mylists/list/NP048JOWBK). See [Electronics Purchasing Guide](#Electronics-Purchasing-Guide) for more information.
 
 > The Odyssey Control Board is uses the high voltage battery DC input. Ensure proper safety measures are used to prevent damage to ~~battery~~ everything ~~within 5 mile radius~~.
