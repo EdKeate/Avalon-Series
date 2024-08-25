@@ -1,5 +1,5 @@
 # Avalon Project
-![Display](./resources\Logo\Avalon.png)
+![Odyssey](https://raw.githubusercontent.com/EdKeate/Avalon-Series/master/resources/Logo/odyssey.png)
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
 The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
