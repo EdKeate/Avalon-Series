@@ -11,23 +11,19 @@ The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project 
 
 ---
 
-- [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System
-- [Pathfinder:](pathfinder) Capable 138.8V 500Wh+ Pocket Rocket **(ETA Q4 2024)**
-- [Questor:](questor) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA Q1 2025)**
+- [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System **(ETA Q3 2024)**
+- [Apollo:](Apollo) Capable 138.8V 500Wh+ Pocket Rocket **(ETA Q4 2024)**
+- [Fenrir:](Fenrir) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA Q1 2025)**
 
 >See also: [InfoBar](infobar), E-ink external display for the Avalon Series
 
 ---
 
-# Odyssey
+[<img src="./resources/Logo/Odyssey2.png">](https://github.com/EdKeate/Avalon-Series?tab=readme-ov-file#odyssey)
 
-<p align="Center">
-  <img src="./resources/Logo/Odyssey2.png" alt="Odyssey Logo" />
-</p>
+> On the [Odyssey](https://www.britannica.com/topic/Odyssey-epic-by-Homer), Odysseus faces numerous trials, including monsters and gods, on his decade-long journey home from the Trojan War to Ithaca.
 
-> The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
-
-The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
+The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, Fingerprint Sensing, no compromises were taken during the design process. 
 
 > Please read [Odyssey Board Disclaimer](#odyssey-board-disclaimer)
 
@@ -369,12 +365,14 @@ These are the absolute minimum requirements for 3D printing the **Odyssey series
 
 - I have no plans to profit from these designs, nor do I have any plans to sell boards directly, especially since that would be [illegal](https://patents.google.com/patent/US9101817B2/en). However, I am available to comission to assemble some of the more complicated components.
 
-- Please for the love of god, if you have my number somehow, do not text or call me. This has been an issue previously.
 
+# Apollo
 
+> Swift and tireless, [Apollo](https://www.britannica.com/topic/Apollo-Greek-mythology) races the sun across the sky each day, his boundless energy unmatched, guiding light and life with unyielding endurance.
 
+# Fenrir
 
-
+> A monstrous wolf in Norse mythology, [Fenrir](https://www.britannica.com/topic/Fenrir) is destined to bring about Ragnarök, breaking free from his chains to devour Odin.
 
 
 
@@ -473,6 +471,8 @@ This section only covers the physical mounting hardware, for electronic parts, s
 
 > The websites listed are wholesalers due to the large number of duplicate parts. If you haven't used a wholesaler before, try and aim for the lowest price break so you have spares and save money. 
 
+# Notice
+- Please for the love of god, if you have my number somehow, do not text or call me. This has been an issue previously.
 
 # License
 Copyright 2024 Edward Keate
