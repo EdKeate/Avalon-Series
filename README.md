@@ -24,6 +24,9 @@ The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project 
 > The **Odyssey** is a timeless epic by Homer, chronicling Odysseus's perilous 10-year journey home after the Trojan War.
 
 The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing boards. Boasting a voltage range of 100.8V to 134.4V, 1KWh+ of capacity, 700+ Lumen lighting, IMU wake detection, no compromises were taken during the design process. 
+
+> Please read [Odyssey Board Disclaimer](#Odyssey-Board-Disclaimer)
+
 ### Features
 - Voltage(V): 134.4V to 100.8V
 - Range(Km): 56-95 (134.4V), 40-65 (100.8V)
