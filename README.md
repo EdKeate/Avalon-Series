@@ -33,6 +33,10 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 - [Fingerprint Sensor](https://cdn.shopify.com/s/files/1/0176/3274/files/104474-datasheet.pdf?v=1650622001) with user profiles and logging
 - [ESPHome](https://esphome.io/) integration
 
+> Disclaimer: The Odyssey is, by far, the heaviest and largest board ever made. This is a personal proof of concept/hobby for myself to show the absolute insanity of todays open-source/manufacturing technology and is NOT meant to be a consumer product. If you are passionate, and I mean PASSIONATE about Onewheeling, this is your next project.
+> This board is also intended to be a new standard that I hope others will follow. I understand that electronics are not for everyone, however I would love to see more people getting into the nitty gritty and picking up electronics as a hobby. I based the project on ESPHome, purely because it uses YAML for programming and is incredibly easy to build upon with extra modules, snazzy code etc...
+> If you do decide to build this board, you will never need a more powerful, longer range or higher speed board. This has every technology that I currently understand implemented and turned up to 11, it's not meant to be easy to use, nor is it intended to be mass produced. The Pathfiner and Questor are much more practical, yet significantly less capable boards, however they are for the everyman, this is not.
+
 ### Powertrain 
 - Controller: [JetFleet F6](https://www.jetfleet.store/product/15108255/controller-jetfleet-f6), [TRONIC X12](https://tronicsystems.com/products/x12-bareboard-no-enclosure), [ENNOID-ESC MK8](https://www.ennoid.me/esc/150v-esc)
 - BMS: [ENNOID-BMS Master-XLITE](https://www.ennoid.me/bms/master-xlite), [ENNOID-BMS XLITE-V4](https://www.ennoid.me/bms/xlite-v4), [Flipsky 4S-30S 20A BMS](https://flipsky.net/collections/bms/products/flipsky-4s-30s-20a-bms-protection-board-hardware-ternary-polymer-lithium-battery-only-charge-bms-board-for-onewheel-ebike-eskateboard-euc)
