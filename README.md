@@ -145,7 +145,7 @@ The **Odyssey Controller Box** is a split pack enclosure designed for 6S2P 21700
 #### Image
 
 <p align="Left">
-  <img src="./resources/image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
+  <img src="./resources/Image/Odyssey Controller Casing.png" alt="Odyssey Controller Casing Image"  />
 </p>
 
 #### Render
@@ -301,11 +301,11 @@ The **Odyssey Fenders** are optional add-ons for your Odyssey board that further
 #### Image
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Fender(F).png" alt="Odyssey Controller Fender(F)"  />
+  <img src="./resources/Image/Odyssey Fender (F).png" alt="Odyssey Controller Fender(F)"  />
 </p>
 
 <p align="Left">
-  <img src="./resources/Image/Odyssey Fender(R).png" alt="Odyssey Controller Fender(R)"  />
+  <img src="./resources/Image/Odyssey Fender (R).png" alt="Odyssey Controller Fender(R)"  />
 </p>
 
 >See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Fenders.
