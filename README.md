@@ -40,7 +40,7 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 - [Odyssey Bumpers](#odyssey-bumpers)
 - [Odyssey Fender](#odyssey-fender)
 - [Odyssey Axle Blocks](#odyssey-axle-blocks)
-- [Avalon Series Tools & Hardware](#Avalon-Series-Tools-&-Hardware)
+- [Avalon Series Tools & Hardware](#Avalon-Series-Tools--Hardware)
 
 ## Odyssey Control Board
 
