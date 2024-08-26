@@ -2,7 +2,7 @@
 > This Project is a work in progress and not yet finished. Files are uploaded and repository publicised to take onboard feedback, advice and hopefully locate eager collaborators. 
 
 <p align="Center">
-  <img src="./resources/Logo/Avalon2.png" alt="Avalon Logo" />
+  <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" />
 </p>
 
 ---
@@ -23,7 +23,7 @@ The Avalon Project is an open-source Self-Balancing Electric-Skateboard project 
 
 ---
 
-[<img src="./resources/Logo/Odyssey2.png">](https://github.com/EdKeate/Avalon-Series?tab=readme-ov-file#odyssey)
+[<img src="./resources/Logo/Odyssey.png">](https://github.com/EdKeate/Avalon-Series?tab=readme-ov-file#odyssey)
 
 > On the [Odyssey](https://www.britannica.com/topic/Odyssey-epic-by-Homer), Odysseus faces numerous trials, including monsters and gods, on his decade-long journey home from the Trojan War to Ithaca.
 
