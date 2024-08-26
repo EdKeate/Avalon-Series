@@ -6,14 +6,14 @@
 
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
-The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All PCB, CAD, Code and project files can be find inside this repository.
+The Avalon Project is an open-source Self-Balancing-Electric-Skateboard project focused on affordability, power, and usability. All [PCB](https://resources.altium.com/p/what-is-a-pcb), [CAD](https://www.techtarget.com/whatis/definition/CAD-computer-aided-design), Code and project files can be find inside this repository.
 > Distributed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Read [LICENSE.md](LICENSE.md)
 
 ---
 
-- [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System **(ETA Q3 2024)**
-- [Apollo:](Apollo) Capable 138.8V 500Wh+ Pocket Rocket **(ETA Q4 2024)**
-- [Fenrir:](Fenrir) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA Q1 2025)**
+- [Odyssey](Odyssey) Flagship 134.4V 1KWh+ Performance System **(ETA: End of Q3 2024)**
+- [Apollo:](Apollo) Capable 138.8V 500Wh+ Pocket Rocket **(ETA: End of Q4 2024)**
+- [Fenrir:](Fenrir) Powerful 100.8V 400Wh+ Lightweight Commuter **(ETA: Start of Q2 2025)**
 
 >See also: [InfoBar](infobar), E-ink external display for the Avalon Series
 
@@ -53,7 +53,7 @@ The **Odyssey** is the Flagship board in the **Avalon Series** of self-balancing
 - [Odyssey Bumpers](#odyssey-bumpers)
 - [Odyssey Fender](#odyssey-fender)
 - [Odyssey Axle Blocks](#odyssey-axle-blocks)
-- [Avalon Series Tools & Hardware](#Avalon-Series-Tools--Hardware)
+- [Avalon Series Tools & Hardware](#avalon-series-tools--hardware)
 
 ## Odyssey Control Board
 
@@ -146,7 +146,7 @@ The **Odyssey Controller Box** is a split pack enclosure designed for 6S2P 21700
 - Dual Compartment Design
 - M20 Gland Hole
 - Steel reinforcement bolt system
->See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Controller Box.
+>See the [Odyssey 3D Printing Guidelines](#odyssey-3d-printing-guidelines) for information on how to manufacture your Controller Box.
 #### Image
 
 <p align="Left">
@@ -168,7 +168,7 @@ The **Odyssey Battery Box** has capacity for 24S2P 21700. For cell and BMS optio
 - [GX16](https://www.sunrom.com/download/663.pdf) Charge port
 - M20 Gland Hole
 - Steel reinforcement bolt system
->See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Battery Casing.
+>See the [Odyssey 3D Printing Guidelines](#odyssey-3d-printing-guidelines) for information on how to manufacture your Battery Casing.
 #### Image
 
 <p align="Left">
@@ -222,7 +222,7 @@ Cheaper Flagship rails. Designed to be **light-weight** and strong at a lower co
 - 12" wheel-well (BTG)
 - 5°lowered, 3° lifted
 - 4° tail lift
->See the [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) for information on how to manufacture your Rails.
+>See the [Avalon Machining Guidelines](#avalon-machining-guidelines) for information on how to manufacture your Rails.
 #### Image
 
 <p align="Left">
@@ -268,7 +268,7 @@ The **Odyssey Footpads** take inspiration from [Stanley Shaw's](https://vow.syst
   <img src="./resources/Render/Odyssey Footpad.png" alt="Odyssey Footpad Render"  />
 </p>
 
->See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Footpads.
+>See the [Odyssey 3D Printing Guidelines](#odyssey-3d-printing-guidelines) for information on how to manufacture your Footpads.
 
 ## Odyssey Bumpers
 [CAD Files](Odyssey/Bumpers)
@@ -292,7 +292,7 @@ The **Odyssey Bumpers** are ultra-durable symmetrical bumpers designed for CNC [
   <img src="./resources/Render/Odyssey Bumper.png" alt="Odyssey Bumper Render"  />
 </p>
 
->See both the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) and [Avalon Machining Guidelines](#Avalon-Machining-Guidelines) to determine your manufacturing method.
+>See both the [Odyssey 3D Printing Guidelines](#odyssey-3d-printing-guidelines) and [Avalon Machining Guidelines](#avalon-machining-guidelines) to determine your manufacturing method.
 >
 ## Odyssey Fender
 [CAD Files](Odyssey/Fender)
@@ -313,7 +313,7 @@ The **Odyssey Fenders** are optional add-ons for your Odyssey board that further
   <img src="./resources/Image/Odyssey Fender (R).png" alt="Odyssey Controller Fender(R)"  />
 </p>
 
->See the [Odyssey 3D Printing Guidelines](#Odyssey-3D-Printing-Guidelines) for information on how to manufacture your Fenders.
+>See the [Odyssey 3D Printing Guidelines](#odyssey-3d-printing-guidelines) for information on how to manufacture your Fenders.
 
 ## Odyssey Axle Blocks
 [CAD Files](Odyssey/Axle%20Blocks)
@@ -497,7 +497,7 @@ If you're working on a budget, Aliexpress offers cheaper but less reliable hardw
 
 > **DO NOT** purchase replacement PCB components from Aliexpress. If you require an SMD fix, purchase from [LCSC](https://www.lcsc.com/) or an equivalent from [Digikey](https://www.digikey.com/)
 
-# Avalon Series Tools &Hardware
+# Avalon Series Tools & Hardware
 The **Avalon Series** requires a lot of tools and miscellaneous parts to assemble. Here is a list of the most important, but not all of the products required to assemble your board.
 
 This section only covers the physical mounting hardware, for electronic parts, see individual components. 
