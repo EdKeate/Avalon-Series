@@ -670,9 +670,6 @@ This section only covers the physical mounting hardware, for electronic parts, s
 > [!TIP]
 > The websites listed are wholesalers due to the large number of duplicate parts. If you haven't used a wholesaler before, try and aim for the lowest price break so you have spares and save money. 
 
-# Notice
-- Please for the love of god, if you have my number somehow, do not text or call me. This has been an issue previously.
-
 # License
 Copyright 2024 Edward Keate
    
@@ -687,3 +684,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+> [!NOTE]
+> My phone number shouldn't be publicly available, however some seem to call or text me out of the blue for technical support. Please use the appropriate method of contacting me through my email, Github or using the Discussion on this page. You're more than welcome to contact me via my number for a chat about something non-Avalon related, however it is unfair on others and myself to hotline directly to me. Thanks for understanding :)
