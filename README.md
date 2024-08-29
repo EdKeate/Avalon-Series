@@ -684,11 +684,16 @@ Thank you for making it this far through the document, if you're interested in h
 
 - Design Ideas. No idea is too much. My main focus of the Avalon Series is that it is easy to add to. Browse the ESPHome website and see what would be cool to have on your Onewheel. Here's some things to consider when drafting up your ideas: Can it be waterproofed? How would someone make this themself? How much do other things like this cost?
 
-The Avalon Project is constantly updating, if you are venturing down the path of building one of these boards, please make sure you check back here frequently for any important notices, issues, or just for some fancy new features. 
-
-
 > [!NOTE]
-> My phone number shouldn't be publicly available, however some seem to call or text me out of the blue for technical support. Please use the appropriate method of contacting me through my email, Github or using the Discussion on this page. You're more than welcome to contact me via my number for a chat about something non-Avalon related, however it is unfair on others and myself to hotline directly to me. Thanks for understanding :)
+> My phone number shouldn't be publicly available, however some seem to call or text me out of the blue for technical support. Please use the appropriate method of contacting me through my email, Github or using the Discussion on this page. You're more than welcome to contact me via my number for a chat about something non-Avalon related, however it is unfair on others and myself to hotline directly to me.
+> Thanks for understanding :)
+
+> [!TIP]
+> The Avalon Project is constantly updating, if you are venturing down the path of building one of these boards, please make sure you check back here frequently for any important notices, issues, or just for some fancy new features.
+
+Shred on! 
+
+Edward 
 
 # License
 Copyright 2024 Edward Keate
