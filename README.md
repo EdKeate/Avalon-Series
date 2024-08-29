@@ -693,7 +693,7 @@ Thank you for making it this far through the document, if you're interested in h
 
 Shred on! 
 
-Edward 
+Ed
 
 # License
 Copyright 2024 Edward Keate
