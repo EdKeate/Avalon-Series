@@ -668,7 +668,27 @@ This section only covers the physical mounting hardware, for electronic parts, s
  - M5 x 8mm L x 7mm Brass Inserts: [UK](https://amzn.eu/d/6vIgD88) / [US](https://a.co/d/f2SdH9I)
 
 > [!TIP]
-> The websites listed are wholesalers due to the large number of duplicate parts. If you haven't used a wholesaler before, try and aim for the lowest price break so you have spares and save money. 
+> The websites listed are wholesalers due to the large number of duplicate parts. If you haven't used a wholesaler before, try and aim for the lowest price break so you have spares and save money.
+
+# Helping out
+
+Thank you for making it this far through the document, if you're interested in helping out with the Avalon project, but don't know where to start, here's a quick breakdown of all the things that happen behind the scenes before being displayed on this repository. Help is always appreciated!
+
+- PMIC design. Power Management Electronics are a highly detailed and precise part of the layout process. Consultation is important, and considerations of Voltage stabilisation, efficiency and standardisation are vital. I have far-future plans to integrate the designs into the XR, GT, GT-S Series, and Pint Series. Because of this, an incredibly wide array of PMIC devices will be required. If you have experience in PMIC design, let me know!
+
+- ESPHome integration. As someone who has learned YAML entirely for this project, writing code for ESPHome is incredibly time-consuming. Assistance in ensuring security, reliability, and ease-of-use while operating user devices would be greatly appreciated.
+
+- CAD improvements. As an experienced CAD designer, I have no problem creating and designing high strength and reliable designs. However, CNC, FDM and other processes are new to me as of the past few years. I have plenty to learn and would love feedback on the different mistakes I have made on my project.
+
+- Writing guides. As someone who re-learnt HTML and Markdown for this project, the guides take a very long time to write(The main README.md took 10hrs+). if you are patient and want to write assembly tutorials, part guides, re-word specifications, etc, this will greatly help all those who venture down the assembly rabbit hole.
+
+- Design Ideas. No idea is too much. My main focus of the Avalon Series is that it is easy to add to. Browse the ESPHome website and see what would be cool to have on your Onewheel. Here's some things to consider when drafting up your ideas: Can it be waterproofed? How would someone make this themself? How much do other things like this cost?
+
+The Avalon Project is constantly updating, if you are venturing down the path of building one of these boards, please make sure you check back here frequently for any important notices, issues, or just for some fancy new features. 
+
+
+> [!NOTE]
+> My phone number shouldn't be publicly available, however some seem to call or text me out of the blue for technical support. Please use the appropriate method of contacting me through my email, Github or using the Discussion on this page. You're more than welcome to contact me via my number for a chat about something non-Avalon related, however it is unfair on others and myself to hotline directly to me. Thanks for understanding :)
 
 # License
 Copyright 2024 Edward Keate
@@ -684,6 +704,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-> [!NOTE]
-> My phone number shouldn't be publicly available, however some seem to call or text me out of the blue for technical support. Please use the appropriate method of contacting me through my email, Github or using the Discussion on this page. You're more than welcome to contact me via my number for a chat about something non-Avalon related, however it is unfair on others and myself to hotline directly to me. Thanks for understanding :)
