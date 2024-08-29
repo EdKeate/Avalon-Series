@@ -3,6 +3,7 @@
 
 > [!WARNING]
 > These components are **NOT** compatible with **ANY** Future Motion™ products including, but not limited to: Onewheel, Onewheel+, Onewheel+ XR, Onewheel Pint, Onewheel Pint X, Onewheel GT, Onewheel GT S-series, Onewheel GT S-series "Rally edition".
+> 
 > Attempting to use **ANY** of the components inside this repository inside Future Motion™ products will result in serious injury or death. Do not attempt.
 
 <p align="Center">
