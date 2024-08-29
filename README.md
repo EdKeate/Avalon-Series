@@ -1,5 +1,9 @@
 > [!WARNING]
-> This Project is a work in progress and not yet finished. Files are uploaded and repository publicised to take onboard feedback, advice and hopefully locate eager collaborators. 
+> This Project is a work in progress and not yet finished. Files are uploaded and repository publicised to take onboard feedback, advice and hopefully locate eager collaborators.
+
+> [!WARNING]
+> These components are **NOT** compatible with **ANY** Future Motion™ products including, but not limited to: Onewheel, Onewheel+, Onewheel+ XR, Onewheel Pint, Onewheel Pint X, Onewheel GT, Onewheel GT S-series, Onewheel GT S-series "Rally edition".
+> Attempting to use **ANY** of the components inside this repository inside Future Motion™ products will result in serious injury or death. Do not attempt.
 
 <p align="Center">
   <img src="./resources/Logo/Avalon.png" alt="Avalon Logo" />
@@ -9,7 +13,7 @@
 
 > **Avalon:** "The isle of the dead, an island paradise where King Arthur and other heroes are taken after death"
 
-The Avalon Project is an open-source Self-Balancing Electric-Skateboard project focused on customizability, power, and networking. All [PCB](https://resources.altium.com/p/what-is-a-pcb), [CAD](https://www.techtarget.com/whatis/definition/CAD-computer-aided-design), Code and project files can be find inside this repository. (These boards are not designed on existing frames).
+The Avalon Project is an open-source Self-Balancing Electric-Skateboard project focused on customizability, power, and networking. All [PCB](https://resources.altium.com/p/what-is-a-pcb), [CAD](https://www.techtarget.com/whatis/definition/CAD-computer-aided-design), Code and project files can be find inside this repository.
 
 > Distributed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Read [LICENSE.md](LICENSE.md)
 
